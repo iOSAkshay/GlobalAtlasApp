@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5274A38D2A51F964001A7841 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274A38C2A51F964001A7841 /* LoginView.swift */; };
 		52AD5D6A2A4BF4FE00BC206E /* TableViewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD5D692A4BF4FE00BC206E /* TableViewSwiftUIApp.swift */; };
 		52AD5D6C2A4BF4FE00BC206E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD5D6B2A4BF4FE00BC206E /* ContentView.swift */; };
 		52AD5D6E2A4BF50100BC206E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AD5D6D2A4BF50100BC206E /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		52AD5D7B2A4C18EE00BC206E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD5D7A2A4C18EE00BC206E /* NetworkingManager.swift */; };
 		52AD5D7E2A4C19FC00BC206E /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD5D7D2A4C19FC00BC206E /* CountryListModel.swift */; };
 		52AD5D802A4C1F5C00BC206E /* CountryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD5D7F2A4C1F5C00BC206E /* CountryDetailsView.swift */; };
+		52CFA3BC2A4D2FE4006C30C1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFA3BB2A4D2FE4006C30C1 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5274A38C2A51F964001A7841 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		52AD5D662A4BF4FE00BC206E /* TableViewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AD5D692A4BF4FE00BC206E /* TableViewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwiftUIApp.swift; sourceTree = "<group>"; };
 		52AD5D6B2A4BF4FE00BC206E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		52AD5D7A2A4C18EE00BC206E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		52AD5D7D2A4C19FC00BC206E /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
 		52AD5D7F2A4C1F5C00BC206E /* CountryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsView.swift; sourceTree = "<group>"; };
+		52CFA3BB2A4D2FE4006C30C1 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5274A38B2A51F94E001A7841 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5274A38C2A51F964001A7841 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		52AD5D5D2A4BF4FE00BC206E = {
 			isa = PBXGroup;
 			children = (
+				52CFA3BB2A4D2FE4006C30C1 /* UserData.swift */,
 				52AD5D682A4BF4FE00BC206E /* TableViewSwiftUI */,
 				52AD5D672A4BF4FE00BC206E /* Products */,
 			);
@@ -59,6 +72,7 @@
 		52AD5D682A4BF4FE00BC206E /* TableViewSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5274A38B2A51F94E001A7841 /* Login */,
 				52AD5D692A4BF4FE00BC206E /* TableViewSwiftUIApp.swift */,
 				52AD5D7C2A4C192900BC206E /* Country */,
 				52AD5D792A4C18A900BC206E /* HttpHandler */,
@@ -167,9 +181,11 @@
 			files = (
 				52AD5D802A4C1F5C00BC206E /* CountryDetailsView.swift in Sources */,
 				52AD5D6C2A4BF4FE00BC206E /* ContentView.swift in Sources */,
+				52CFA3BC2A4D2FE4006C30C1 /* UserData.swift in Sources */,
 				52AD5D7E2A4C19FC00BC206E /* CountryListModel.swift in Sources */,
 				52AD5D7B2A4C18EE00BC206E /* NetworkingManager.swift in Sources */,
 				52AD5D6A2A4BF4FE00BC206E /* TableViewSwiftUIApp.swift in Sources */,
+				5274A38D2A51F964001A7841 /* LoginView.swift in Sources */,
 				52AD5D782A4BF56800BC206E /* CountryListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

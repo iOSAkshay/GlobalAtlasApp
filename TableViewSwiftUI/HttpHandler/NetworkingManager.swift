@@ -18,6 +18,25 @@ class manager: FetchManagerProtocol {
         countryData = countryList
         return countryData
     }
+    
+//    func fetchUserDetails() async throws -> UserData {
+//        //API Call
+//
+//        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
+//            return []
+//        }
+//
+//        var urlRequest = URLRequest(url: url)
+//        urlRequest.httpMethod = "GET"
+//
+//
+//        let (data, _) = try await URLSession.shared.data(for: urlRequest)
+//
+//        let jsonDecoder = JSONDecoder()
+//        let responseModel = try jsonDecoder.decode(UserData.self, from: data)
+//        return responseModel
+//
+//    }
 }
 
 //Dummy Data

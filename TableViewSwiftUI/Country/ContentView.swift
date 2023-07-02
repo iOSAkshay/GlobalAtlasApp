@@ -36,7 +36,7 @@ struct ContentView: View {
                     print("OnDisappear is called")
                 }
             )
-            .navigationTitle("Country List")
+            .navigationTitle(countries.first ?? "")
         })
     }
 }
